@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body>
     <!-- ==================== HEADER / MENU BAR ==================== -->
@@ -28,7 +33,7 @@
         <nav class="navbar">
           <ul class="nav-list">
             <li><a href="#" class="nav-link active">Home</a></li>
-            <li><a href="#" class="nav-link">Resume</a></li>
+            <li><a href="./classes.html" class="nav-link">Classes</a></li>
             <li><a href="#" class="nav-link">Projects</a></li>
             <li><a href="#" class="nav-link">About</a></li>
             <li><a href="#" class="nav-link">Contact</a></li>
@@ -77,7 +82,7 @@
       <nav class="mobile-nav">
         <ul class="mobile-nav-list">
           <li><a href="#" class="mobile-nav-link active">Home</a></li>
-          <li><a href="#" class="mobile-nav-link">Resume</a></li>
+          <li><a href="./classes.html" class="mobile-nav-link">Classes</a></li>
           <li><a href="#" class="mobile-nav-link">Projects</a></li>
           <li><a href="#" class="mobile-nav-link">About</a></li>
           <li><a href="#" class="mobile-nav-link">Contact</a></li>
@@ -112,14 +117,13 @@
         <!-- RIGHT: Image -->
         <div class="hero-image">
           <img
-            src="./images/couple-gym-photo.jpg"
+            src="./images/nigerian-couple-at-the-gym.jpeg"
             alt="Nigerian couple working out together in a modern gym"
           />
         </div>
       </div>
     </section>
 
-    <!-- ==================== DEMO CONTENT BELOW HERO ==================== -->
     <main class="main-content">
       <!-- ==================== WHY CHOOSE 042-GYM SECTION ==================== -->
 
@@ -212,6 +216,256 @@
           </div>
         </div>
       </section>
+
+      <!-- ==================== POPULAR CLASSES SECTION ==================== -->
+      <section class="popular-classes">
+        <div class="popular-classes-container">
+          <!-- Section Header -->
+          <div class="popular-header">
+            <h2 class="popular-heading">Popular Classes</h2>
+            <a href="./classes.html" class="view-all-btn">
+              <span>View all classes</span>
+              <svg
+                class="arrow-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Cards Grid -->
+          <div class="classes-grid">
+            <!-- Card 1: Strength Training -->
+            <div class="class-card">
+              <div class="class-image">
+                <img
+                  src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&h=300&fit=crop"
+                  alt="Strength Training"
+                />
+              </div>
+              <div class="class-info">
+                <h3 class="class-name">Strength Training</h3>
+                <p class="class-desc">
+                  Build muscle and power with guided weightlifting sessions for
+                  all fitness levels daily.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 2: HIIT Workout -->
+            <div class="class-card">
+              <div class="class-image">
+                <img
+                  src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=300&fit=crop"
+                  alt="HIIT Workout"
+                />
+              </div>
+              <div class="class-info">
+                <h3 class="class-name">HIIT Workout</h3>
+                <p class="class-desc">
+                  Burn fat fast with high intensity interval training that
+                  pushes your limits hard.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 3: Yoga & Stretching -->
+            <div class="class-card">
+              <div class="class-image">
+                <img
+                  src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop"
+                  alt="Yoga and Stretching"
+                />
+              </div>
+              <div class="class-info">
+                <h3 class="class-name">Yoga & Stretching</h3>
+                <p class="class-desc">
+                  Improve flexibility and calm your mind with our peaceful yoga
+                  flow sessions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== SUBSCRIPTION SECTION ==================== -->
+      <section class="subscription">
+        <div class="subscription-container">
+          <!-- Section Header -->
+          <div class="subscription-header">
+            <h2 class="subscription-heading">Subscription</h2>
+            <p class="subscription-desc">
+              Choose a plan that fits your goals and start your fitness
+              transformation today.
+            </p>
+          </div>
+
+          <!-- Pricing Cards -->
+          <div class="pricing-grid">
+            <!-- Card 1: One Visit -->
+            <div class="pricing-card">
+              <div class="pricing-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M12 2v20M2 12h20"></path>
+                </svg>
+              </div>
+              <h3 class="pricing-title">One Visit</h3>
+              <div class="pricing-price">
+                <span class="currency">₦</span>
+                <span class="amount">3,000</span>
+              </div>
+              <p class="pricing-tagline">
+                Try before you commit, feel the energy today.
+              </p>
+              <a href="#" class="book-btn">Book Now</a>
+            </div>
+
+            <!-- Card 2: Monthly -->
+            <div class="pricing-card featured">
+              <div class="pricing-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+              </div>
+              <h3 class="pricing-title">Monthly</h3>
+              <div class="pricing-price">
+                <span class="currency">₦</span>
+                <span class="amount">25,000</span>
+              </div>
+              <p class="pricing-tagline">
+                Stay consistent, see real results every single month.
+              </p>
+              <a href="#" class="book-btn">Book Now</a>
+            </div>
+
+            <!-- Card 3: Yearly -->
+            <div class="pricing-card">
+              <div class="pricing-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                  <polyline points="17 6 23 6 23 12"></polyline>
+                </svg>
+              </div>
+              <h3 class="pricing-title">Yearly</h3>
+              <div class="pricing-price">
+                <span class="currency">₦</span>
+                <span class="amount">280,000</span>
+              </div>
+              <p class="pricing-tagline">
+                Save big, commit fully, transform your life completely.
+              </p>
+              <a href="#" class="book-btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== NEWSLETTER SECTION ==================== -->
+      <section class="newsletter">
+        <div class="newsletter-wrapper">
+          <div class="newsletter-overlay">
+            <div class="newsletter-container">
+              <h2 class="newsletter-heading">Subscribe to Our Newsletter</h2>
+              <p class="newsletter-desc">
+                Get weekly fitness tips, exclusive workout plans, and special
+                offers delivered straight to your inbox today.
+              </p>
+
+              <form class="newsletter-form" action="#" method="POST">
+                <input
+                  type="email"
+                  class="newsletter-input"
+                  placeholder="Your email address"
+                  required
+                />
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- ==================== FOOTER SECTION ==================== -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo and Name -->
+        <div class="footer-logo">
+          <div class="footer-logo-icon">
+            <span>🏋️</span>
+          </div>
+          <span class="footer-logo-text">042-GYM</span>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright">
+          <i class="fa-regular fa-copyright copyright-icon"></i>
+          <span>2026 042-GYM. All rights reserved.</span>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="footer-socials">
+          <a
+            href="https://wa.me/2348168531564"
+            class="social-link"
+            target="_blank"
+            aria-label="WhatsApp"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/chimdindu-ude-483688237/"
+            class="social-link"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a
+            href="https://x.com/Dii__ndu"
+            class="social-link"
+            target="_blank"
+            aria-label="X"
+          >
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+          <a
+            href="https://github.com/Dinduude/"
+            class="social-link"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

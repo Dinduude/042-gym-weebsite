@@ -377,6 +377,469 @@ body {
   line-height: 1.7;
 }
 
+/* ==================== POPULAR CLASSES SECTION ==================== */
+.popular-classes {
+  background-color: var(--background);
+  padding: 60px 16px;
+}
+
+.popular-classes-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Section Header */
+.popular-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.popular-heading {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--primary);
+  letter-spacing: 1px;
+}
+
+/* View All Button */
+.view-all-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 2px solid var(--primary);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.view-all-btn:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  transform: translateX(4px);
+}
+
+.arrow-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Classes Grid */
+.classes-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+/* Class Card - Transparent Background */
+.class-card {
+  background-color: transparent;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.class-card:hover {
+  transform: translateY(-8px);
+}
+
+.class-card:hover .class-image img {
+  transform: scale(1.08);
+}
+
+/* Card Image */
+.class-image {
+  width: 100%;
+  height: 220px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.class-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+/* Card Info */
+.class-info {
+  padding: 16px 4px 8px;
+}
+
+.class-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 8px;
+}
+
+.class-desc {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* ==================== SUBSCRIPTION SECTION ==================== */
+.subscription {
+  background-color: var(--white);
+  padding: 60px 16px;
+}
+
+.subscription-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section Header */
+.subscription-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.subscription-heading {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--primary);
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.subscription-desc {
+  font-size: 15px;
+  color: var(--text-light);
+  line-height: 1.7;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Pricing Grid */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Pricing Card */
+.pricing-card {
+  background-color: var(--background);
+  border-radius: 20px;
+  padding: 40px 28px;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(119, 147, 148, 0.2);
+}
+
+/* Featured Card (Monthly - middle one) */
+.pricing-card.featured {
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.pricing-card.featured .pricing-icon {
+  background-color: var(--white);
+  color: var(--primary);
+}
+
+.pricing-card.featured .pricing-title {
+  color: var(--white);
+}
+
+.pricing-card.featured .pricing-price {
+  color: var(--white);
+}
+
+.pricing-card.featured .pricing-tagline {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.pricing-card.featured .book-btn {
+  background-color: var(--white);
+  color: var(--primary);
+}
+
+.pricing-card.featured .book-btn:hover {
+  background-color: var(--background);
+}
+
+/* Pricing Icon */
+.pricing-icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.pricing-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+/* Pricing Title */
+.pricing-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 16px;
+}
+
+/* Pricing Price */
+.pricing-price {
+  margin-bottom: 16px;
+  color: var(--primary);
+}
+
+.currency {
+  font-size: 24px;
+  font-weight: 600;
+  vertical-align: top;
+}
+
+.amount {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+/* Pricing Tagline */
+.pricing-tagline {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 28px;
+  font-style: italic;
+}
+
+/* Book Now Button */
+.book-btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 14px 40px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(119, 147, 148, 0.4);
+}
+
+/* ==================== NEWSLETTER SECTION ==================== */
+.newsletter {
+  /* Same width as other sections */
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Wrapper for background image */
+.newsletter-wrapper {
+  background-image: url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&h=600&fit=crop");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Dark overlay for text visibility */
+.newsletter-overlay {
+  background-color: rgba(47, 79, 79, 0.75);
+  padding: 60px 24px;
+
+  /* Flexbox to center content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Newsletter Content Container */
+.newsletter-container {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Heading */
+.newsletter-heading {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+/* Description - exactly 20 words */
+.newsletter-desc {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+/* Form */
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* Email Input */
+.newsletter-input {
+  flex: 1;
+  padding: 14px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: var(--white);
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.newsletter-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.newsletter-input:focus {
+  border-color: var(--white);
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Subscribe Button */
+.newsletter-btn {
+  padding: 14px 32px;
+  border: none;
+  border-radius: 50px;
+  background-color: var(--white);
+  color: var(--primary);
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.newsletter-btn:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ==================== FOOTER SECTION ==================== */
+.footer {
+  background-color: var(--primary);
+  height: 4rem;
+  margin-top: 2rem;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 16px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Logo and Name */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-logo-icon {
+  width: 32px;
+  height: 32px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.footer-logo-text {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+/* Copyright */
+.footer-copyright {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 13px;
+}
+
+.copyright-icon {
+  font-size: 14px;
+}
+
+/* Social Media Links */
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  color: var(--white);
+  transform: translateY(-3px);
+}
+
 /* ==================== TABLET RESPONSIVE (768px+) ==================== */
 @media screen and (min-width: 768px) {
   .header-container {
@@ -437,6 +900,112 @@ body {
   .choose-card {
     max-width: 340px;
     flex: 1 1 340px;
+  }
+
+  .popular-classes {
+    padding: 80px 24px;
+  }
+
+  .popular-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+  }
+
+  .popular-heading {
+    font-size: 40px;
+  }
+
+  .classes-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .class-image {
+    height: 200px;
+  }
+
+  .subscription {
+    padding: 80px 24px;
+  }
+
+  .subscription-heading {
+    font-size: 40px;
+  }
+
+  .subscription-desc {
+    font-size: 16px;
+  }
+
+  .pricing-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+  }
+
+  /* Featured card slightly bigger */
+  .pricing-card.featured {
+    padding: 50px 24px;
+    transform: scale(1.05);
+  }
+
+  .pricing-card.featured:hover {
+    transform: scale(1.05) translateY(-8px);
+  }
+
+  .amount {
+    font-size: 36px;
+  }
+
+  .newsletter {
+    padding: 0 24px;
+  }
+
+  .newsletter-overlay {
+    padding: 80px 40px;
+  }
+
+  .newsletter-heading {
+    font-size: 36px;
+  }
+
+  .newsletter-desc {
+    font-size: 15px;
+  }
+
+  .newsletter-form {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .newsletter-input {
+    padding: 16px 24px;
+  }
+
+  .newsletter-btn {
+    padding: 16px 36px;
+  }
+
+  .footer-container {
+    padding: 0 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .footer-logo-text {
+    font-size: 20px;
+  }
+
+  .footer-copyright {
+    font-size: 14px;
+  }
+
+  .social-link {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
   }
 }
 
@@ -527,6 +1096,83 @@ body {
 
   .card-description {
     font-size: 15px;
+  }
+
+  .popular-classes {
+    padding: 100px 40px;
+  }
+
+  .popular-heading {
+    font-size: 48px;
+  }
+
+  .classes-grid {
+    gap: 32px;
+  }
+
+  .class-image {
+    height: 260px;
+  }
+
+  .class-name {
+    font-size: 20px;
+  }
+
+  .class-desc {
+    font-size: 15px;
+  }
+
+  .subscription {
+    padding: 100px 40px;
+  }
+
+  .subscription-heading {
+    font-size: 48px;
+  }
+
+  .pricing-grid {
+    gap: 32px;
+  }
+
+  .pricing-card {
+    padding: 48px 36px;
+  }
+
+  .pricing-card.featured {
+    padding: 56px 36px;
+  }
+
+  .amount {
+    font-size: 48px;
+  }
+
+  .pricing-title {
+    font-size: 24px;
+  }
+
+  .pricing-tagline {
+    font-size: 15px;
+  }
+
+  .newsletter {
+    padding: 0 40px;
+  }
+
+  .newsletter-overlay {
+    padding: 100px 60px;
+  }
+
+  .newsletter-heading {
+    font-size: 40px;
+  }
+
+  .newsletter-desc {
+    font-size: 16px;
+    margin-bottom: 28px;
+  }
+
+  .footer-container {
+    padding: 0 40px;
   }
 }
 
