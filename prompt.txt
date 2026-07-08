@@ -1,0 +1,14 @@
+I am new to software development and I want you to help me build a menu bar of a gym website called 042-GYM, create a logo for the website and let the logo and the name of the website be at the right of the menu bar
+Let the menu bar have a navigation bar with the following items, home, resume, projects, about, contact, let this be at the center of the menu bar
+Then at the right side of the menu bar, let the be a search icon, user/profile icon and then a button with the button name as +2348168531564
+Let the menu bar be sticky too
+Design all these with just html and external CSS styling, no JavaScript and let it be responsive to different major screen sizes, let the IDE be visual studio code and please the codes should not be too advanced as i am new to coding and let it be mobile first responsive. Please on the mobile responsive design let the search icon, user/profile icon still be visible with the hamburger icon that will contain the navigation contents. Make use of #f7f9f8 and #779394 color in this website, let it blend so well.
+Please write out the codes
+
+HERO SECTION
+Help me also build a hero section, whereby on the left side, there should be a heading "042-GYM" and create a gym related description that would be written under it, after that let there be two buttons, one should be a join training button and the other should be a learn more button
+On the right side of the hero section, let there be a picture of an african man and woman, nigeria precisely, working out in a gym
+
+help me create another section with the heading, why choose 042-GYM
+create eight card containers with border radius, with a skew effect, and also a color gradient effect. The card container should contain numbers from one to eight with the following sub-heading, 1. Equipment Quality & Availability 2. Total Monthly Cost & Contract Terms 3. Locker Room Amenities & Extras 4. Overall Cleanliness & Culture 5. Staff Quality & Group Classes 6. Quality of Trainers and Staff 7. Operating Hours 8. Group Fitness Class Options 
+Then also inside the card container write a fifteen word description about the various sub-heading listed above
