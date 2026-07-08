@@ -1,4 +1,5 @@
 INDEX.HTML PAGE
+HEADING SECTION
 I am new to software development and I want you to help me build a menu bar of a gym website called 042-GYM, create a logo for the website and let the logo and the name of the website be at the right of the menu bar
 Let the menu bar have a navigation bar with the following items, home, resume, projects, about, contact, let this be at the center of the menu bar
 Then at the right side of the menu bar, let the be a search icon, user/profile icon and then a button with the button name as +2348168531564
@@ -36,3 +37,29 @@ Then help me build a footer section, containing the 042-GYM icon and the name, w
 
 CLASSES.HTML PAGE
 Thanks, help me also build another section with the heading text Popular Classes, then under the heading, create nine different cards, let the background of the cards be transparent, the cards should contain Nigerian pictures of nine different exercises done in Nigeria, and a sub-heading of the name of the exercise about the displayed picture and a ten word description about the exercise.
+
+
+
+
+ABOUT.HTML PAGE
+ABOUT-HERO SECTION
+Help me create another section that will have the heading About with 5 items
+
+INSTRUCTORS SECTION 
+Build another section with the heading Our Instructors, and then display three different nigerian individuals with their social media icons( whatsapp, x and instagram). The first person should be a male with the name Joseph, the second person should be a female with the name Amara, the person should be a male with the name Emerie, please emphasis on nigerian individuals pictures
+
+TESTIMONY SECTION
+Build another section with the heading Testimonies and write a fifteen word description about testimonies, then under it create two cards, create a write up of about 20 words giving positive reviews about 042-GYM and their names respectively
+
+
+
+
+
+FACILITY.HTML PAGE
+thank you, please also build another section with 15 cards showing different facility images that can be found in a nigerian gym house with their names written on them
+
+
+
+CONTACT.HTML PAGE 
+Build a section whereby on the left there is a form to fill with the following, the form heading text should be Let's Talk and the different forms to fill are name, email address, subject, comment or meesage with a bigger text area then a submit button Send Message.
+Then on the left side, their should be a sub-heading of "Physical address" and a text "Hon. I.K Agbo Street Premier Layout, Ogui-Nike Enugu.", another sub-heading under "Email address" and text "chimdiudechukwu@gmail.com", another sub-heading under "Phone Number" and text "08168531564".

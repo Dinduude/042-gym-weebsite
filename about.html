@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>042-GYM</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="./css/about.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ==================== HEADER / MENU BAR ==================== -->
+    <header class="header">
+      <div class="header-container">
+        <!-- LEFT: Logo + Website Name -->
+        <div class="logo-section">
+          <div class="logo-icon">
+            <span class="dumbbell">🏋️</span>
+          </div>
+          <span class="logo-text">042-GYM</span>
+        </div>
+
+        <!-- CENTER: Navigation Links (Desktop) -->
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li><a href="./index.html" class="nav-link active">Home</a></li>
+            <li><a href="./classes.html" class="nav-link">Classes</a></li>
+            <li><a href="./facilities.html" class="nav-link">Facilities</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="./contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- RIGHT: Search, Profile, Phone Button -->
+        <div class="right-section">
+          <a href="#" class="icon-btn" aria-label="Search">
+            <svg
+              class="icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+          </a>
+
+          <a href="#" class="icon-btn" aria-label="Profile">
+            <svg
+              class="icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </a>
+
+          <a href="tel:+2348168531564" class="phone-btn"> +2348168531564 </a>
+
+          <button class="hamburger" aria-label="Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Menu -->
+      <nav class="mobile-nav">
+        <ul class="mobile-nav-list">
+          <li>
+            <a href="./index.html" class="mobile-nav-link active">Home</a>
+          </li>
+          <li><a href="./classes.html" class="mobile-nav-link">Classes</a></li>
+          <li><a href="./facilities.html" class="mobile-nav-link">Facilities</a></li>
+          <li><a href="#" class="mobile-nav-link">About</a></li>
+          <li><a href="./contact.html" class="mobile-nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ==================== ABOUT SECTION ==================== -->
+      <section class="about">
+        <div class="about-container">
+          <!-- Section Heading -->
+          <h2 class="about-heading">About</h2>
+
+          <!-- About Items Grid -->
+          <div class="about-grid">
+            <!-- Item 1 -->
+            <div class="about-item">
+              <div class="about-icon">
+                <i class="fa-solid fa-bullseye"></i>
+              </div>
+              <h3 class="about-title">Our Mission</h3>
+              <p class="about-desc">
+                Empower every Nigerian to achieve peak fitness through
+                world-class training and unwavering community support daily.
+              </p>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="about-item">
+              <div class="about-icon">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <h3 class="about-title">Our Vision</h3>
+              <p class="about-desc">
+                Become Nigeria's leading fitness brand, inspiring healthier
+                lifestyles across every state and community nationwide.
+              </p>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="about-item">
+              <div class="about-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <h3 class="about-title">Our Values</h3>
+              <p class="about-desc">
+                Integrity, discipline, and passion drive everything we do for
+                our members every single day.
+              </p>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="about-item">
+              <div class="about-icon">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <h3 class="about-title">Our Community</h3>
+              <p class="about-desc">
+                A family of fitness lovers who motivate, challenge, and
+                celebrate each other's progress together always.
+              </p>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="about-item">
+              <div class="about-icon">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <h3 class="about-title">Our Achievements</h3>
+              <p class="about-desc">
+                Over ten thousand members transformed since launch, with
+                countless success stories shared proudly online.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== OUR INSTRUCTORS SECTION ==================== -->
+      <section class="instructors">
+        <div class="instructors-container">
+          <!-- Section Heading -->
+          <h2 class="instructors-heading">Our Instructors</h2>
+
+          <!-- Instructors Grid -->
+          <div class="instructors-grid">
+            <!-- Instructor 1: Joseph -->
+            <div class="instructor-card">
+              <div class="instructor-image">
+                <img
+                  src="./images/joseph.jpeg"
+                  alt="Joseph - Nigerian Fitness Instructor"
+                />
+              </div>
+              <h3 class="instructor-name">Joseph</h3>
+              <p class="instructor-role">Strength Coach</p>
+              <div class="instructor-socials">
+                <a href="#" class="instructor-social" aria-label="WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#" class="instructor-social" aria-label="X">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="instructor-social" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Instructor 2: Amara -->
+            <div class="instructor-card">
+              <div class="instructor-image">
+                <img
+                  src="./images/amara.jpg"
+                  alt="Amara - Nigerian Fitness Instructor"
+                />
+              </div>
+              <h3 class="instructor-name">Amara</h3>
+              <p class="instructor-role">Yoga Instructor</p>
+              <div class="instructor-socials">
+                <a href="#" class="instructor-social" aria-label="WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#" class="instructor-social" aria-label="X">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="instructor-social" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Instructor 3: Emerie -->
+            <div class="instructor-card">
+              <div class="instructor-image">
+                <img
+                  src="./images/emerie.jpeg"
+                  alt="Emerie - Nigerian Fitness Instructor"
+                />
+              </div>
+              <h3 class="instructor-name">Emerie</h3>
+              <p class="instructor-role">HIIT Specialist</p>
+              <div class="instructor-socials">
+                <a href="#" class="instructor-social" aria-label="WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#" class="instructor-social" aria-label="X">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="instructor-social" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== TESTIMONIES SECTION ==================== -->
+      <section class="testimonies">
+        <div class="testimonies-container">
+          <!-- Section Heading -->
+          <h2 class="testimonies-heading">Testimonies</h2>
+          <p class="testimonies-desc">
+            Hear from our members who transformed their lives and bodies at
+            042-GYM.
+          </p>
+
+          <!-- Testimonial Cards -->
+          <div class="testimonies-grid">
+            <!-- Card 1: Chioma -->
+            <div class="testimony-card">
+              <div class="testimony-quote">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+              </div>
+              <p class="testimony-text">
+                042-GYM completely changed my life. The trainers are amazing,
+                the equipment is top-notch, and I feel stronger every single day
+                now.
+              </p>
+              <div class="testimony-author">
+                <div class="author-avatar">
+                  <span>C</span>
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">Chioma Okafor</h4>
+                  <span class="author-role">Member since 2024</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Tunde -->
+            <div class="testimony-card">
+              <div class="testimony-quote">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+              </div>
+              <p class="testimony-text">
+                Best gym in Enugu hands down. Lost fifteen kilos in three months
+                and gained confidence I never knew I had before.
+              </p>
+              <div class="testimony-author">
+                <div class="author-avatar">
+                  <span>T</span>
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">Tunde Bakare</h4>
+                  <span class="author-role">Member since 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== FOOTER SECTION ==================== -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo and Name -->
+        <div class="footer-logo">
+          <div class="footer-logo-icon">
+            <span>🏋️</span>
+          </div>
+          <span class="footer-logo-text">042-GYM</span>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright">
+          <i class="fa-regular fa-copyright copyright-icon"></i>
+          <span>2026 042-GYM. All rights reserved.</span>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="footer-socials">
+          <a
+            href="https://wa.me/2348168531564"
+            class="social-link"
+            target="_blank"
+            aria-label="WhatsApp"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/chimdindu-ude-483688237/"
+            class="social-link"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a
+            href="https://x.com/Dii__ndu"
+            class="social-link"
+            target="_blank"
+            aria-label="X"
+          >
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+          <a
+            href="https://github.com/Dinduude/"
+            class="social-link"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
